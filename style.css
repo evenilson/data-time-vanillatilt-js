@@ -34,7 +34,7 @@ section {
   
   border-radius: 7px;
   border: 1px solid #0b66e6;
-  box-shadow: 0px 0px 12px #0b66e6;
+  box-shadow: 0px 0px 12px #166adf80;
 }
 
 .watch #time {
@@ -43,7 +43,7 @@ section {
   font-weight: 600;
   
   color: #c5a518;
-  text-shadow: 0px 0px 9px #c5a518;
+  text-shadow: 0px 0px 9px #d4b31cc5;
 }
 
 .watch #date {
