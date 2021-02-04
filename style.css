@@ -1,18 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
-    width: 100%;
-    height: 100vh;
-
-    background-color: #141526;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #fff;
+  width: 100%;
+  height: 100vh;
+  
+  background-color: #141526;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: #fff;
 }
+
+.watch {  
+  flex-basis: 600px;
+  
+  background-color: #14152f;
+  
+  padding: 2px 18px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 7px;
+  border: 1px solid #0b66e6;
+  box-shadow: 0px 0px 12px #0b66e6;
+}
+
+.watch #time {
+  font-family: 'Codystar', cursive;
+  font-size: 8.5rem;
+  font-weight: 600;
+  
+  color: #c5a518;
+  text-shadow: 0px 0px 9px #c5a518;
+}
+
+.watch #date {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 1.4em;
+}
+
+
